@@ -8,9 +8,11 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UILabel *tipAmountLabel;
 @property (weak, nonatomic) IBOutlet UILabel *totalAmountLabel;
+@property (weak, nonatomic) IBOutlet UILabel *tipAmountLabel;
 @property (weak, nonatomic) IBOutlet UITextField *billAmountField;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
+
 @end
 
 @implementation ViewController
@@ -24,8 +26,14 @@
 }
 
 - (IBAction)OnEdit:(id)sender {
-    self.tipAmountLabel.text= @"$10.00";
-    self.totalAmountLabel.text= @"$10.00";
+    double bill = [self.billAmountField.text doubleValue];
+    NSArray *percentages = @[@(0.1),@(0.15),@(0.2)];
+    double tipPercentage =[ percentages[self.tipControl.selectedSegmentIndex] doubleValue];
+    double tipAmount = bill*tipPercentage;
+    double total = bill+tipAmount;
+    self.tipAmountLabel.text= [NSString stringWithFormat:@"$%.2f",tipAmount];
+    self.totalAmountLabel.text=[NSString stringWithFormat:@"$%.2f",total];
 }
 
 @end
+    

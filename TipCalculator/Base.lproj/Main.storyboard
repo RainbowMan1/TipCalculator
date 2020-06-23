@@ -48,16 +48,19 @@
                                             <segment title="15%"/>
                                             <segment title="20%"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="OnEdit:" destination="BYZ-38-t0r" eventType="valueChanged" id="ozO-YV-F43"/>
+                                        </connections>
                                     </segmentedControl>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gTi-uP-fuT">
-                                        <rect key="frame" x="275" y="153" width="120" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jir-pv-NZZ">
+                                        <rect key="frame" x="27" y="159" width="89" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jir-pv-NZZ">
-                                        <rect key="frame" x="27" y="159" width="89" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YHv-N7-Yp2">
+                                        <rect key="frame" x="235" y="159" width="158" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -92,9 +95,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="Tip Calculator" id="OHd-RA-ut3"/>
                     <connections>
-                        <outlet property="billAmountField" destination="lfr-lb-Hm7" id="3Oo-Hb-RiW"/>
-                        <outlet property="tipAmountField" destination="gTi-uP-fuT" id="4ws-Zk-EPE"/>
-                        <outlet property="totalAmountField" destination="gTi-uP-fuT" id="XQu-56-6Kd"/>
+                        <outlet property="billAmountField" destination="aR3-Zb-5aR" id="CyC-Rs-5CZ"/>
+                        <outlet property="tipAmountLabel" destination="YHv-N7-Yp2" id="Uoj-Kx-yte"/>
+                        <outlet property="tipControl" destination="9wE-gG-BV9" id="6YL-Ru-qIC"/>
+                        <outlet property="totalAmountLabel" destination="lfr-lb-Hm7" id="Pan-4P-mVm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
