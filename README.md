@@ -1,5 +1,7 @@
 # Project 1 - *TipCalculator*
 
+**Note: Use iPhone 11 and iOS 13.5**
+
 **TipCalculator** is a tip calculator application for iOS.
 
 Submitted by: **Nikesh Subedi**
@@ -10,7 +12,7 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [ x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
 
@@ -22,7 +24,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x ] Better UI
 
 ## Video Walkthrough
 
@@ -38,9 +40,7 @@ Describe any challenges encountered while building the app.
 
 ## Credits
 
-List an 3rd party libraries, icons, graphics, or other assets you used in your app.
-
-- [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
+App icon made by [Freepik](http://www.flaticon.com).
 
 ## License
 

@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "Webp.net-resizeimage.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
@@ -11,11 +12,13 @@
       "size" : "20x20"
     },
     {
+      "filename" : "Webp.net-resizeimage (3).png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "Webp.net-resizeimage (4).png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
@@ -41,11 +44,13 @@
       "size" : "60x60"
     },
     {
+      "filename" : "Webp.net-resizeimage (2).png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "20x20"
     },
     {
+      "filename" : "Webp.net-resizeimage-1.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "20x20"
@@ -56,6 +61,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "Webp.net-resizeimage (3)-1.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"
@@ -86,6 +92,7 @@
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "New Project.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
