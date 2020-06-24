@@ -12,7 +12,7 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is complete:
 
-* [ x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
 
@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x ] Better UI
+- [x] Better UI
 
 ## Video Walkthrough
 
