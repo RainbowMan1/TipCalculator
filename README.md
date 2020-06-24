@@ -1,12 +1,12 @@
 # Project 1 - *TipCalculator*
 
-**Note: Use iPhone 11 and iOS 13.5**
+**Note: Use iPhone 11 and iOS 13.5. Auto Layout Constraints not implemented.**
 
 **TipCalculator** is a tip calculator application for iOS.
 
 Submitted by: **Nikesh Subedi**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -25,18 +25,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Better UI
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Notes
-
-Describe any challenges encountered while building the app.
+- [ ] Idle timer to show random tipping facts to encourage/promote tipping
 
 ## Credits
 

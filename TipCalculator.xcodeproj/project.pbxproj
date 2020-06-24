@@ -16,6 +16,7 @@
 		DB942C2824A2A65A0078A8BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB942C2724A2A65A0078A8BE /* main.m */; };
 		DB942C3224A2A65A0078A8BE /* TipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB942C3124A2A65A0078A8BE /* TipCalculatorTests.m */; };
 		DB942C3D24A2A65A0078A8BE /* TipCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB942C3C24A2A65A0078A8BE /* TipCalculatorUITests.m */; };
+		DB942C4C24A30BBF0078A8BE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DB942C4B24A30BBF0078A8BE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		DB942C3824A2A65A0078A8BE /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB942C3C24A2A65A0078A8BE /* TipCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorUITests.m; sourceTree = "<group>"; };
 		DB942C3E24A2A65A0078A8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB942C4B24A30BBF0078A8BE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		DB942C0924A2A6580078A8BE = {
 			isa = PBXGroup;
 			children = (
+				DB942C4B24A30BBF0078A8BE /* README.md */,
 				DB942C1424A2A6580078A8BE /* TipCalculator */,
 				DB942C3024A2A65A0078A8BE /* TipCalculatorTests */,
 				DB942C3B24A2A65A0078A8BE /* TipCalculatorUITests */,
@@ -241,6 +244,7 @@
 			files = (
 				DB942C2524A2A65A0078A8BE /* LaunchScreen.storyboard in Resources */,
 				DB942C2224A2A65A0078A8BE /* Assets.xcassets in Resources */,
+				DB942C4C24A30BBF0078A8BE /* README.md in Resources */,
 				DB942C2024A2A6580078A8BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
