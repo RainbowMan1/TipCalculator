@@ -27,6 +27,18 @@ The following **additional** features are implemented:
 - [x] Better UI
 - [ ] Idle timer to show random tipping facts to encourage/promote tipping
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://s3.amazonaws.com/img0.recordit.co/DwUl6Ia3HJ.mp4?AWSAccessKeyId=AKIAUQ5RURZ7ND2T2B6I&Expires=1592976830&Signature=855XDgDEHK0UOWWOQR5ri50C7lE%3D' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+Auto Constraint Layouts were hard to figure out. I also tried (and failed) to implement a idle timer that would help me know that the user was done entering the bill amount so that I could animate a random fact about tipping.
+
 ## Credits
 
 App icon made by [Freepik](http://www.flaticon.com).
